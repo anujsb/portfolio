@@ -3,7 +3,23 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+/* 
+.App {
+	font-family: sans-serif;
+	font-weight: 800;
+	font-size: 40px;
+	text-align: center;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	min-height: 100vh;
+	background: green;
+} */
 
+
+.will-change-transform {
+  will-change: transform;
+}
 
 * {
   margin: 0;

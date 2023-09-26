@@ -1,9 +1,39 @@
 import { motion } from "framer-motion";
 
+// import Typewriter from "typewriter-effect";
+import Typed from 'typed.js';
+import React, { useEffect, useRef } from 'react';
+
 import { styles } from "../styles";
 import { StarsCanvas } from "./canvas";
 
 const Hero = () => {
+
+  // function TypingComponent() {
+    const typedRef = useRef(null);
+  
+    useEffect(() => {
+      if (typedRef.current) {
+        const options = {
+          strings: [
+            'Websites.',
+            'Chat bots.',
+            'Automations.'
+          ],
+          typeSpeed: 50, // typing speed in milliseconds
+          backSpeed: 50, // backspacing speed in milliseconds
+          loop: true, // loop the animation
+        };
+  
+        const typed = new Typed(typedRef.current, options);
+  
+        // Cleanup on unmount
+        return () => {
+          typed.destroy();
+        };
+      }
+    }, []);
+    
   return (
     <section className={`relative w-full h-screen mx-auto`}>
       <div
@@ -16,12 +46,24 @@ const Hero = () => {
 
         <div>
           <h1 className="text-5xl subpixel-antialiased font-light tracking-wide leading-loose ">
-            Hi, I'm Anuj
+            Hi, Im Anuj
           </h1>
-          <p className={`${styles.heroSubText} mt-2 text-slate-300 font-light tracking-wide`}>
+          {/* <p className={`${styles.heroSubText} mt-2 text-slate-300 font-light tracking-wide`}>
             I build websites, website tools, <br className='sm:block hidden' />
             back-end part and automations
-          </p>
+          </p> */}
+          <h1 className="text-4xl subpixel-antialiased font-sans font-light tracking-wide leading-loose ">
+          <p>
+      I build <span ref={typedRef}></span>
+    </p>
+          </h1>
+          {/* <p className="text-5xl subpixel-antialiased font-light tracking-wide leading-loose display: flex; ">
+            I build 
+            </p> */}
+
+            
+              
+          
         </div>
       </div>
 
