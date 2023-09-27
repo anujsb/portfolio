@@ -212,7 +212,7 @@ import {
           color: "pink-text-gradient",
         },
       ],
-      image: carrent,
+      image: port,
       source_code_link: "https://github.com/anujsb/portfolio",
     },
     {
