@@ -27,8 +27,11 @@ import starbucks from "./company/starbucks.png";
 import tesla from "./company/tesla.png";
 
 import port from "./port.png"
-import jobit from "./jobit.png";
-import tripguide from "./tripguide.png";
+// import jobit from "./jobit.png";
+// import tripguide from "./tripguide.png";
+import CanvasCraft from "./CanvasCraft.png";
+import ImagiGen from "./ImagiGen.png";
+
 
 export {
   logo,
@@ -57,6 +60,8 @@ export {
   starbucks,
   tesla,
   port,
-  jobit,
-  tripguide,
+  // jobit,
+  // tripguide,
+  CanvasCraft,
+  ImagiGen
 };

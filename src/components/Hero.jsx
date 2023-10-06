@@ -54,7 +54,7 @@ const Hero = () => {
           </p> */}
           <h1 className="text-4xl subpixel-antialiased font-sans font-light tracking-wide leading-loose ">
           <p>
-      I build <span ref={typedRef}></span>
+      I build <br></br><span ref={typedRef}></span>
     </p>
           </h1>
           {/* <p className="text-5xl subpixel-antialiased font-light tracking-wide leading-loose display: flex; ">

@@ -20,8 +20,10 @@ import {
     tesla,
     shopify,
     port,
-    jobit,
-    tripguide,
+    // jobit,
+    // tripguide,
+    CanvasCraft,
+    ImagiGen,
     threejs,
   } from "../assets";
   
@@ -116,52 +118,43 @@ import {
   
   const experiences = [
     {
-      title: "1. Provide Website As You Will",
+      title: "Website Development:",
       // company_name: "Starbucks",
-      icon: starbucks,
+      // icon: starbucks,
       iconBg: "#383E56",
-      date: "March 2020 - April 2021",
+      date: "#HTML/CSS #JavaScript #react #express #node",
       points: [
-        "looking for a website that's not just drop-dead gorgeous but also as reliable as your morning coffee? Look no further! I've got the web-design wizardry to craft a site that'll make your business shine brighter than a disco ball. Plus, I'll keep it running smoother than a well-oiled machine. Let's make your online presence more entertaining than a stand-up comedy show!",
+        "Embark on a digital odyssey with our masterful website development. We blend artistry and technology to sculpt your online presence into a captivating realm where aesthetics harmonize with functionality.",
       ],
     },
     {
-      title: "React Native Developer",
-      company_name: "Tesla",
-      icon: tesla,
+      title: "Chatbot Creations:",
+      // company_name: "Tesla",
+      // icon: tesla,
       iconBg: "#E6DEDD",
-      date: "Jan 2021 - Feb 2022",
+      date: "#botpress #openai #machine learning",
       points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
+        "Unleash the future of customer engagement with our chatbot sorcery. We conjure intelligent digital companions that converse, assist, and enchant, revolutionizing how your brand connects with its audience."
       ],
     },
     {
-      title: "Web Developer",
-      company_name: "Shopify",
-      icon: shopify,
+      title: "Automations",
+      // company_name: "Shopify",
+      // icon: shopify,
       iconBg: "#383E56",
-      date: "Jan 2022 - Jan 2023",
+      date: "# zapier",
       points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
+        "Witness operational alchemy as we transmute manual tasks into automated symphonies. Our automation expertise orchestrates efficiency, enhancing productivity and optimizing your business's inner workings."
       ],
     },
     {
-      title: "Full stack Developer",
-      company_name: "Meta",
-      icon: meta,
+      title: "Designing",
+      // company_name: "Meta",
+      // icon: meta,
       iconBg: "#E6DEDD",
-      date: "Jan 2023 - Present",
+      date: "#figma #canva",
       points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
+        "Evoke emotions and spark desires with our creative prowess. We sculpt visual narratives that breathe life into your brand, leaving an indelible mark on hearts and minds through exquisite design."
       ],
     },
   ];
@@ -216,46 +209,83 @@ import {
       source_code_link: "https://github.com/anujsb/portfolio",
     },
     {
-      name: "ai image generation",
+      name: "ImagiGen",
       description:
-        "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+        "Discover 'ImagiGen': The ultimate AI image generator powered by MERN stack, DALL·E APIs, and Cloudinary, where innovation meets artistry for limitless creative expression. Unleash your imagination today!",
       tags: [
         {
-          name: "react",
+          name: "mongoDB",
           color: "blue-text-gradient",
         },
         {
-          name: "restapi",
+          name: "express.js",
           color: "green-text-gradient",
         },
         {
-          name: "scss",
+          name: "react.js",
           color: "pink-text-gradient",
         },
+        {
+          name: "node.js",
+          color: "orange-text-gradient",
+        },
+        {
+          name: "DALL-E",
+          color: "purple-text-gradient",
+        },
       ],
-      image: jobit,
-      source_code_link: "https://github.com/",
+      image: ImagiGen,
+      source_code_link: "https://github.com/anujsb/ImagiGen",
     },
     {
-      name: "Trip Guide",
+      name: "CanvasCraft",
       description:
-        "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+        "Immerse in collaborative artistry with 'CanvasCraft' : a multiplayer drawing web game. Crafted with Next.js, WebSockets, Node.js, and Express.js for a seamless, interactive creative experience.",
       tags: [
         {
-          name: "nextjs",
+          name: "next.js",
           color: "blue-text-gradient",
         },
         {
-          name: "supabase",
+          name: "node.js",
           color: "green-text-gradient",
         },
         {
-          name: "css",
+          name: "express.js",
           color: "pink-text-gradient",
         },
+        {
+          name: "websockets",
+          color: "orange-text-gradient",
+        },
       ],
-      image: tripguide,
-      source_code_link: "https://github.com/",
+      image: CanvasCraft,
+      source_code_link: "https://github.com/anujsb/CanvasCraft",
+    },
+    {
+      name: "DocuVault",
+      description:
+        "Introducing 'DocuVault': Your Elegantly Secure Digital Haven, Where Your Personal Documents Are Safely Stored and Gracefully Displayed.",
+      tags: [
+        {
+          name: "next.js",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "node.js",
+          color: "green-text-gradient",
+        },
+        {
+          name: "express.js",
+          color: "pink-text-gradient",
+        },
+        {
+          name: "websockets",
+          color: "orange-text-gradient",
+        },
+      ],
+      image: null,
+      source_code_link: "https://github.com/anujsb/wt",
     },
   ];
   
